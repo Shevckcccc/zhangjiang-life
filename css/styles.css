@@ -1,5 +1,5 @@
 html , body {
-    font-family: 'Merriweather',Georgia,Times,'Times New Roman',serif;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     background: #ecf0f1;
     font-size: 100%;
 }
@@ -17,55 +17,6 @@ a, a:hover {
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     color: #222;
-}
-.navbar-default .navbar-text {
-    color: #ffffff;
-}
-.navbar-default .navbar-nav > li > a {
-    color: #ffffff;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #ffffff;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #ffffff;
-    background-color: #aa7942;
-}
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    color: #ffffff;
-    background-color: #aa7942;
-}
-.navbar-default .navbar-toggle {
-    border-color: #ecf0f1;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #aa7942;
-}
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #ffffff;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-    border-color: #ecf0f1;
-}
-.navbar-default .navbar-link {
-    color: #ffffff;
-}
-.navbar-default .navbar-link:hover {
-    color: #ffffff;
-}
-
-@media (max-width: 767px) {
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #222;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #222;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-        color: #222;
-        background-color: #aa7942;
-    }
 }
 
 
@@ -112,6 +63,10 @@ a, a:hover {
 .site-into ul li {
     display: inline-block;
     line-height: 1;
+    color: #fff;
+}
+
+.site-into ul li a,.site-into ul li a:hover {
     color: #fff;
 }
 

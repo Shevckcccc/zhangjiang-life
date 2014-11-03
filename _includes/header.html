@@ -28,7 +28,7 @@
 
                  </div>
             {% else %}
-                 <h2>居住自查手册</h2>
+                 <h2>{{ site.description }}</h2>
             {% endif %}
 
         </div>
@@ -37,9 +37,9 @@
 {% if page.title  == nil %}
     <div class="site-into">
         <ul>
-            <li>QQ群：8097339302</li>
-            <li>豆瓣小组：浦东张江租房</li>
-            <li>GitHub：pdzj</li>
+            <li>QQ群：{{site.tecent_group_no}}</li>
+            <li>豆瓣小组：<a target="_blank" href="{{ site.douban_group_link }}">{{ site.douban_group_name }}</a> </li>
+            <li>GitHub：<a target="_blank" href="{{ site.github_repo_link }}">{{ site.github_repo_name }}</a></li>
         </ul>
     </div>
 {% endif %}

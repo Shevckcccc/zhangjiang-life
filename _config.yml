@@ -1,7 +1,18 @@
 name: 浦东张江
-description:
+description: 居住自查手册
 url: "http://211.im"
 baseurl: /
+
+# addition properties
+tecent_group_no: 324597273
+douban_group_name: 浦东张江租房
+douban_group_link: http://www.douban.com/group/zjhouse/
+github_repo_name: 211.im
+github_repo_link: https://github.com/Shevckcccc/211.im
+
+#author
+author_name: Shevckcccc
+author_url: http://weibo.com/karahcccc
 
 
 # Markdown rendering

@@ -1,8 +1,21 @@
-# 浦东张江wiki
-##怎么提交代码
+# 浦东张江生活文档1.0版
+
+### 如何安装
+1. 请自行网上搜索安装jekyll，如果你ruby配好了，请运行以下代码即可
+```
+    $ gem install jekyll
+```
+2. 运行
+```
+$ git clone git@github.com:Shevckcccc/211.im.git
+$ cd 211.im
+$ jekyll --serve
+```
+
+###怎么提交代码
 先fork，再提pull request
 
-##格式
+###格式
 ####分类/文件名格式
 ```
 文件结构
@@ -16,7 +29,7 @@ _posts
    ...
 
 ```
-在_post目录下有各个分类目录，在对应分类下新建文章(比如租房就是house目录，如果没有分类目录，需要自己新建一个)。然后创建文章的md文件，格式为yyyy-mm-dd-title.md （eg: 2014-10-25-how-to-apply-xxx.md），注意文件名不要跟_post里的任一文件重复。
+请在对应的分类目录下新建文章(如没有分类则新建一文件夹），文章文件格式为 yyyy-mm-dd-xxx.md
 
 ####内容格式
 ```

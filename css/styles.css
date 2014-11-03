@@ -25,7 +25,7 @@ a, a:hover {
     border-radius: 0;
 }
 .head {
-    padding:70px 0 80px;
+    padding:50px 0 50px;
     background: #1abc9c;
     color: #fff;
 }
@@ -79,10 +79,24 @@ a, a:hover {
     margin-top: 80px;
     min-height: 350px;
 }
+.content p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.content a,.content a:hover{
+    color: #428bca;
+}
 .footer {
     padding: 80px 0 10px;
     text-align: center;
     font-size: 0.5rem;
+}
+.footer div {
+    margin-bottom: 10px;
+}
+.footer a {
+    font-weight: bold;
 }
 .post {
     padding-bottom: 20px;
@@ -125,8 +139,8 @@ a, a:hover {
 
 .author-avatar img{
     max-width: 80px;
-    background: #1abc9c;
-    border: 1px solid #1abc9c;
+    background: rgba(227, 231, 228, 1);
+    border: 1px solid rgba(227, 231, 228, 1);
     padding: 2px;
     border-radius: 100%;
 }
@@ -136,6 +150,11 @@ a, a:hover {
     margin-top: 8px;
 }
 
+.author-meta .author-name a{
+    color: #222;
+}
+
+
 .author-meta .col-md-2 {
     max-width: 120px;
 }
@@ -143,12 +162,6 @@ a, a:hover {
     color: #777;
     font-size: 1rem;
 }
-
-.content p{
-    font-size: 1.1rem;
-    line-height: 1.6;
-}
-
-.content a,.content a:hover{
-    color: #428bca;
+.page h3{
+    margin-top: 46px;
 }

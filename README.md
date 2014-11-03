@@ -1,16 +1,20 @@
 # 浦东张江生活文档1.0版
 
 ### 如何安装
+
 1. 请自行网上搜索安装jekyll，如果你ruby配好了，请运行以下代码即可
 ```
     $ gem install jekyll
 ```
+
 2. 运行
 ```
 $ git clone git@github.com:Shevckcccc/211.im.git
 $ cd 211.im
 $ jekyll --serve
 ```
+
+3. 访问http://localhost:4000 即可
 
 ###怎么提交代码
 先fork，再提pull request

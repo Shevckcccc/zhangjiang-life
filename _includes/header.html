@@ -1,0 +1,47 @@
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="/">{{ site.name }}</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+    </div>
+</nav>
+
+    <div class="head">
+        <div class="container">
+            {% if page.title %}
+                <div class="title">{{ page.title }}</div>
+            {% else %}
+                 <h1>{{ site.name }}</h1>
+            {% endif %}
+
+            {% if page.authors and page.authors[0] %}
+                 {% assign author =  page.authors[0] | split:"|" %}
+                 <div class="post-meta">
+                     <span><i class=icon-user></i>
+                            {{ author[0] }} </span>
+                     <span>
+                         <i class=icon-calendar></i>
+                         {{ page.date | date: "%Y-%m-%d" }}
+                     </span>
+
+                 </div>
+            {% else %}
+                 <h2>居住自查手册</h2>
+            {% endif %}
+
+        </div>
+    </div>
+
+{% if page.title  == nil %}
+    <div class="site-into">
+        <ul>
+            <li>QQ群：8097339302</li>
+            <li>豆瓣小组：浦东张江租房</li>
+            <li>GitHub：pdzj</li>
+        </ul>
+    </div>
+{% endif %}
+
+

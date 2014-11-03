@@ -1,0 +1,16 @@
+name: 浦东张江
+description:
+url: "http://211.im"
+baseurl: /
+
+
+# Markdown rendering
+markdown: kramdown
+kramdown:
+  smart_quotes: apos,apos,quot,quot
+  parse_block_html: true
+
+# Site settings
+permalink: /blog/:year/:month/:day/:title/
+relative_permalinks: false
+highlighter: pygments

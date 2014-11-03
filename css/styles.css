@@ -1,0 +1,199 @@
+html , body {
+    font-family: 'Merriweather',Georgia,Times,'Times New Roman',serif;
+    background: #ecf0f1;
+    font-size: 100%;
+}
+a, a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-default {
+    background-color: #ecf0f1;
+    border-color: #ecf0f1;
+}
+.navbar-default .navbar-brand {
+    color: #222;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #222;
+}
+.navbar-default .navbar-text {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #aa7942;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: #aa7942;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ecf0f1;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #aa7942;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+    color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #222;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #222;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #222;
+        background-color: #aa7942;
+    }
+}
+
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.head {
+    padding:70px 0 80px;
+    background: #1abc9c;
+    color: #fff;
+}
+
+.head .container {
+    text-align: center;
+    color: #fff;
+}
+
+.head .container h1 {
+    font-size: 3rem;
+    text-shadow: 0px 0px 0 rgb(208,208,208),1px 1px 0 rgb(160,160,160),2px 2px 0 rgb(113,113,113), 2px 2px 0 rgb(66,66,66),3px 3px 2px rgba(0,0,0,0.2),3px 3px 1px rgba(0,0,0,0.1),0px 0px 2px rgba(0,0,0,.2);
+}
+
+.head .container h2 {
+    font-size:1.4rem;
+    font-weight: 400;
+}
+
+.head .title {
+    font-size: 2.7rem;
+}
+
+.site-into {
+    padding: 15px 0 10px;
+    background: #16a085;
+    font-size: 0.8rem;
+}
+
+.site-into ul{
+    list-style: none;
+    text-align: center;
+}
+
+.site-into ul li {
+    display: inline-block;
+    line-height: 1;
+    color: #fff;
+}
+
+.site-into ul > li+li:before {
+    padding: 0 10px;
+    color: #ccc;
+    content: "|";
+}
+.main {
+    margin-top: 80px;
+    min-height: 350px;
+}
+.footer {
+    padding: 80px 0 10px;
+    text-align: center;
+    font-size: 0.5rem;
+}
+.post {
+    padding-bottom: 20px;
+}
+.post .title{
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
+.post .list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.post .list li{
+    font-size: 1.1rem;
+    margin: 30px 0 10px;
+}
+.post-meta {
+    padding-top: 10px;
+}
+.post-meta span{
+    margin-right: 12px;
+    color: #EEF5F4;
+}
+
+.post-author-title {
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.author-meta {
+    color: #222;
+    background: rgba(227, 231, 228, 1);
+    border: 1px solid #ceeaf4;
+    border-radius: 3px;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+.author-avatar img{
+    max-width: 80px;
+    background: #1abc9c;
+    border: 1px solid #1abc9c;
+    padding: 2px;
+    border-radius: 100%;
+}
+
+.author-meta .author-name {
+    font-size: 1.5rem;
+    margin-top: 8px;
+}
+
+.author-meta .col-md-2 {
+    max-width: 120px;
+}
+.author-meta .author-bio {
+    color: #777;
+    font-size: 1rem;
+}
+
+.content p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.content a,.content a:hover{
+    color: #428bca;
+}

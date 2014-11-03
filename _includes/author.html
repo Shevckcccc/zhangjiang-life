@@ -1,0 +1,28 @@
+{% if page.authors %}
+    <h1 class="post-author-title">作者</h1>
+    {% for author in page.authors %}
+    {% assign auth =  author | split:"|" %}
+     <div class="author-meta">
+         <div class="row">
+             <div class="col-md-2">
+                 <div class="author-avatar">
+                     <img src="{{ auth[2]}}">
+                 </div>
+             </div>
+             <div class="col-md-10">
+                 <h2 class="author-name">
+                     {% if auth[3] and  auth[3] != empty %}
+                        <a target="_blank" href="{{ auth[3] }}">{{ auth[0]}}</a>
+                     {% else %}
+                        {{ auth[0]}}
+                     {% endif %}
+                 </h2>
+                 <div class="author-bio">
+                     {{ auth[1]}}
+                 </div>
+             </div>
+         </div>
+
+     </div>
+    {% endfor %}
+{% endif %}

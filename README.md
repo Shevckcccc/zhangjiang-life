@@ -2,7 +2,7 @@
 
 ### 如何安装
 
-1.请自行网上搜索安装jekyll，如果你ruby配好了，请输入以下代码即可
+1.请自行网上搜索安装jekyll，如果你已有ruby，输入以下代码即可
 ```
     $ gem install jekyll
 ```
@@ -48,14 +48,14 @@ title: 开篇
 category: 租房
 authors:
 - Shevckcccc|iOS开发|/images/author-image.jpeg|http://java.im
-- Will|Java程序员，SAP|http://sameple.com/avatar|
+- Will|Java程序员，SAP|http://sample.com/avatar|
 
 ---
 ```
 **layout**: 文章模块统一为post                
 **title**: 标题                   
-**category**: 分类(`注意分类文件夹仅作物理识别用，程序只认此处的category，所以此处要和当前所在的目录文件夹对应，如house目录，这里就是租房`)                
-**authors**: 作者数组，首发文章只填一个就行了，多人合作编辑的请依次填写，使用"|"分隔，第一个字段名称，第二个字段描述，第三个字段头像，第四个字段是你的个人网址                
+**category**: 分类(`注意分类文件夹仅作物理识别用，程序只认此处的category，所以当前category要和当前所在的目录文件夹一一对应，如在house目录下添加文章，那category就是租房`)                
+**authors**: 作者数组，首发文章只填一个就行了，多人合作编辑的请依次填写。作者字段采用"|"分隔，第一个字段名称，第二个字段描述，第三个字段头像，第四个字段是你的个人网址                
 
 
 

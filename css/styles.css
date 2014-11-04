@@ -8,6 +8,15 @@ a, a:hover {
     text-decoration: none;
 }
 
+table th, table td {
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #DDD;
+    min-width: 150px;
+}
+
 .navbar-default {
     background-color: #ecf0f1;
     border-color: #ecf0f1;
@@ -58,6 +67,8 @@ a, a:hover {
 .site-into ul{
     list-style: none;
     text-align: center;
+    margin: 3px;
+    padding: 0;
 }
 
 .site-into ul li {

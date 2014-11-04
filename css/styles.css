@@ -2,6 +2,7 @@ html , body {
     font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     background: #ecf0f1;
     font-size: 100%;
+    overflow: hidden; 
 }
 a, a:hover {
     color: #000;

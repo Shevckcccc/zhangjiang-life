@@ -7,7 +7,6 @@ a, a:hover {
     color: #000;
     text-decoration: none;
 }
-
 table th, table td {
     padding: 8px;
     line-height: 20px;
@@ -16,7 +15,6 @@ table th, table td {
     border: 1px solid #DDD;
     min-width: 150px;
 }
-
 .navbar-default {
     background-color: #ecf0f1;
     border-color: #ecf0f1;
@@ -27,8 +25,6 @@ table th, table td {
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     color: #222;
 }
-
-
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -38,49 +34,40 @@ table th, table td {
     background: #1abc9c;
     color: #fff;
 }
-
 .head .container {
     text-align: center;
     color: #fff;
 }
-
 .head .container h1 {
     font-size: 3rem;
     text-shadow: 0px 0px 0 rgb(208,208,208),1px 1px 0 rgb(160,160,160),2px 2px 0 rgb(113,113,113), 2px 2px 0 rgb(66,66,66),3px 3px 2px rgba(0,0,0,0.2),3px 3px 1px rgba(0,0,0,0.1),0px 0px 2px rgba(0,0,0,.2);
 }
-
 .head .container h2 {
     font-size:1.4rem;
     font-weight: 400;
 }
-
 .head .title {
     font-size: 2.7rem;
 }
-
 .site-into {
     padding: 15px 0 10px;
     background: #16a085;
     font-size: 0.8rem;
 }
-
 .site-into ul{
     list-style: none;
     text-align: center;
     margin: 3px;
     padding: 0;
 }
-
 .site-into ul li {
     display: inline-block;
     line-height: 1;
     color: #fff;
 }
-
 .site-into ul li a,.site-into ul li a:hover {
     color: #fff;
 }
-
 .site-into ul > li+li:before {
     padding: 0 10px;
     color: #ccc;
@@ -90,11 +77,10 @@ table th, table td {
     margin-top: 80px;
     min-height: 350px;
 }
-.content p{
+.content p {
     font-size: 1.1rem;
     line-height: 1.6;
 }
-
 .content a,.content a:hover{
     color: #428bca;
 }
@@ -116,12 +102,10 @@ table th, table td {
     font-size: 1.7rem;
     font-weight: 900;
 }
-
 .post .list {
     list-style: none;
     padding-left: 0;
 }
-
 .post .list li{
     font-size: 1.1rem;
     margin: 30px 0 10px;
@@ -133,12 +117,10 @@ table th, table td {
     margin-right: 12px;
     color: #EEF5F4;
 }
-
 .post-author-title {
     font-size: 1.3rem;
     font-weight: 900;
 }
-
 .author-meta {
     color: #222;
     background: rgba(227, 231, 228, 1);
@@ -147,7 +129,6 @@ table th, table td {
     padding: 1rem;
     margin: 1rem auto;
 }
-
 .author-avatar img{
     max-width: 80px;
     background: rgba(227, 231, 228, 1);
@@ -155,17 +136,13 @@ table th, table td {
     padding: 2px;
     border-radius: 100%;
 }
-
 .author-meta .author-name {
     font-size: 1.5rem;
     margin-top: 8px;
 }
-
 .author-meta .author-name a{
     color: #222;
 }
-
-
 .author-meta .col-md-2 {
     max-width: 120px;
 }

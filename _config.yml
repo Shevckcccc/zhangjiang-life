@@ -22,6 +22,6 @@ kramdown:
   parse_block_html: true
 
 # Site settings
-permalink: blog/:year/:month/:day/:title/
+permalink: /211.im/blog/:year/:month/:day/:title/
 relative_permalinks: false
 highlighter: rouge

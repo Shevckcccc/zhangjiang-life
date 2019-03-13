@@ -1,14 +1,14 @@
 name: 浦东张江
 description: 浦东张江生活文档1.0版
-url: "http://211.im"
+url: "http://shevckcccc.github.io/zhangjiang-life/"
 baseurl: /
 
 # addition properties
 tecent_group_no: 324597273
 douban_group_name: 浦东张江租房
 douban_group_link: http://www.douban.com/group/zjhouse/
-github_repo_name: 211.im
-github_repo_link: https://github.com/Shevckcccc/211.im
+github_repo_name: zhangjiang-life
+github_repo_link: https://github.com/Shevckcccc/zhangjiang-life
 
 #author
 author_name: Shevckcccc
@@ -22,6 +22,6 @@ kramdown:
   parse_block_html: true
 
 # Site settings
-permalink: /211.im/blog/:year/:month/:day/:title/
+permalink: /zhangjiang-life/blog/:year/:month/:day/:title/
 relative_permalinks: false
 highlighter: rouge

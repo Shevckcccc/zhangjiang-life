@@ -11,7 +11,7 @@
 
 2.运行
 ```
-$ git clone git@github.com:Shevckcccc/211.im.git
+$ git clone git@github.com:Shevckcccc/zhangjiang-life.git
 $ cd 211.im
 $ jekyll --serve
 ```
@@ -20,12 +20,12 @@ $ jekyll --serve
 
 3.访问 http://localhost:4000
 
-###怎么提交代码
+### 怎么提交代码
 先fork，再提pull request
 
-###格式
+### 格式
 
-####分类/文件名格式
+#### 分类/文件名格式
 ```
 文件结构
 _posts
@@ -40,7 +40,7 @@ _posts
 ```
 请在对应的分类目录下新建文章(如没有分类则新建一文件夹），文件格式为 yyyy-mm-dd-xxx.md
 
-####内容格式
+#### 内容格式
 ```
 ---
 layout: post
